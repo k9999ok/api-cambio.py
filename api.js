@@ -1,6 +1,6 @@
 const express = require('express');
 const axios = require('axios');
-const cheerio = require('cheerio');
+
 
 const app = express();
 const PORT = 3000;
@@ -21,12 +21,12 @@ app.get('/', async (req, res) => {
    const iteam = response.data.items[2]
     //const ARG = response.data.items((currency) => currency.isoCode === 'ARS');
 
-    console.log(iteam)
+    
 
 
   
 
-    // Utiliza Cheerio para cargar el HTML de la respuesta
+
     
     
 
